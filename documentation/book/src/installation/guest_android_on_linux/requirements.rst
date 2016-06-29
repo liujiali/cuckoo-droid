@@ -41,7 +41,7 @@ In the Android SDK Manager, install the following components:
 
 Add the android SDK tool to ``$PATH`` variable::
 
-    $ export PATH=$PATH:sdk_path/tool:sdk_path/build-tools/x.x.x.x/:sdk_path/platform-tools
+    $ export PATH=$PATH:sdk_path/tools:sdk_path/build-tools/x.x.x.x/:sdk_path/platform-tools
 
 .. _`official website`: http://developer.android.com/sdk/index.html
 
