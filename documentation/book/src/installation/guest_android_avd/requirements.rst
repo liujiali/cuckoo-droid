@@ -73,7 +73,7 @@ Prepare the Android Virtual Device Reference Machine for Analysis
 
 Start the emulator with ``/system`` in read-write mode::
 
-	$ emulator -avd aosx -qemu -nand -system,size=0x1f400000,file=<sdk_path>/system-images/android-16/default/armeabi-v7a/system.img&
+	$ emulator -avd aosx -qemu -nand system,size=0x1f400000,file=<sdk_path>/system-images/android-16/default/armeabi-v7a/system.img&
 
 Run the script in ``utils/android_emulator_creator/create_guest_avd.sh``
 
